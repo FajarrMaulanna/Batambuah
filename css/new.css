@@ -1,0 +1,226 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Kadwa', serif;
+}
+
+.navbar {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #FFFFFF;
+  width: 70%;
+  margin: auto;
+  margin-bottom: -2px;
+}
+
+.navbar.cus-nav {
+  background-color: #4A0404;
+  z-index: 999;
+  height: 45px !important;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.navbar-brand #icon_utama {
+  width: 55px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.navbar-brand #icon_utama.cus-nav {
+  width: 35px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.navbar-brand.cus-nav {
+  font-size: 25px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.preloader {
+  position: fixed;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+.preloader .loading {
+  position: absolute;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font: 14px arial;
+}
+
+.carousel-inner {
+  border-radius: 40px;
+}
+
+#highlight {
+  background-color: black;
+}
+
+#highlight #img_utama {
+  width: 100%;
+  height: 615px;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+#highlight #text_salam {
+  position: absolute;
+  color: #FFFFFF;
+  z-index: 99;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-size: 40px;
+  top: 30%;
+}
+
+#highlight #desc_salam {
+  position: absolute;
+  color: #FFFFFF;
+  z-index: 99;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-size: 30px;
+  top: 55%;
+}
+
+#highlight #searching {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  top: 46%;
+  bottom: 46%;
+}
+
+#highlight #searching #input_search {
+  width: 50%;
+}
+
+#highlight #scroll_btn {
+  position: absolute;
+  color: #FFFFFF;
+  z-index: 99;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-size: 50px;
+  top: 75%;
+}
+
+#area_icon .link_kat {
+  color: #000000;
+  text-decoration: none;
+}
+
+#area_icon .icon_kat {
+  width: 100%;
+}
+
+#area_icon .text_kat {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#area_icon .card {
+  -webkit-box-shadow: 2px 2px 10px 5px rgba(12, 5, 100, 0.2);
+          box-shadow: 2px 2px 10px 5px rgba(12, 5, 100, 0.2);
+  border-radius: 25px;
+}
+
+#area_icon .card-body:hover {
+  padding: 0.25rem;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+#footer #judul_foot {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#footer .sub_foot {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+#footer .list {
+  list-style: none;
+  padding-left: 1rem !important;
+  color: #FFFFFF;
+}
+
+#footer #copyright {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .navbar.cus-nav {
+    height: auto !important;
+  }
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .navbar-brand #icon_utama {
+    width: 35px;
+  }
+  .nav-link:hover::after {
+    display: none;
+  }
+  #highlight #img_utama {
+    height: 425px;
+  }
+  #highlight #text_salam {
+    font-size: 30px;
+    top: 15%;
+  }
+  #highlight #searching {
+    top: 15%;
+    bottom: 45%;
+  }
+  #highlight #desc_salam {
+    font-size: 20px;
+    top: 40%;
+  }
+  #highlight #scroll_btn {
+    font-size: 40px;
+    top: 55%;
+  }
+}
+/*# sourceMappingURL=new.css.map */
